@@ -1,0 +1,14 @@
+/* Bootstrap media queries */
+/* Large Devices (Desktops & Laptops) >1200 px */
+@media(min-width:1200px) {
+    #home-heading h3 {
+        color: blue;
+    }
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media(min-width:992px) and (max-width:1199px) {
+    #home-heading h3 {
+        color: yellow;
+    }
+}
